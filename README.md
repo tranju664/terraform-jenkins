@@ -6,3 +6,22 @@ Pre-requisites:
 4. Get the access_key and secret_key from the USER
 5. Manage Jenkins  ----> Manage Credentials ---> Global credentials (unrestricted)---> Add Credentials -->SecretText
 in the above add the access_key and secret_key , create seperately for both 
+
+6. To clone the modules present in private repo
+Step 1: Store the PAT
+
+Go to:
+
+Manage Jenkins
+    ↓
+Credentials
+    ↓
+Global
+    ↓
+Add Credentials
+
+Choose:
+Kind        : Secret text
+ID          : github-pat
+Secret      : ghp_3kjhkgfhdgkfkgfd
+Description : GitHub PAT
