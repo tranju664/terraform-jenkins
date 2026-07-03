@@ -1,0 +1,18 @@
+pipeline {
+    agent any
+
+    environment {
+        GITHUB_PAT = credentials('github-pat')
+    }
+
+    stages {
+        stage('Terraform Init') {
+            steps {
+                sh '''
+                git config --global url."https://${GITHUB_PAT}@github.com/".insteadOf "https://github.com/"
+                terraform init
+                '''
+            }
+        }
+    }
+}
