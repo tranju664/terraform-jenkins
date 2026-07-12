@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform-bucket" {
-  bucket = "sagarbucket-18-11-2254"
+  bucket = "sagarbucket-18-11-2254-4587225"
 }
 
 resource "aws_s3_bucket_versioning" "versioning_bucket" {
