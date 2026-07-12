@@ -11,7 +11,7 @@ variable "my-instance-type" {
 }
 
 variable "my-key-value" {
-    default = "demo-2025"
+    default = "DevOps-May-2026"
   
 }
 
