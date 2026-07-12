@@ -92,7 +92,7 @@ pipeline {
                     sh """
                     cd ${directory}
                     rm -rf .terraform
-                    rm -f terraform.tfstate terraform.tfstate.backup tfplan
+                    // rm -f terraform.tfstate terraform.tfstate.backup tfplan
                     """
                 }
             }
