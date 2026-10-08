@@ -6,12 +6,12 @@ variable "my-ami" {
 }
 
 variable "my-instance-type" {
-    default = "t2.micro"
+    default = "t3.micro"
   
 }
 
 variable "my-key-value" {
-    default = "DevOps-May-2026"
+    default = "DevOps-July-2026"
   
 }
 
