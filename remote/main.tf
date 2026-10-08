@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "terraform-bucket" {
-  bucket = "sagarbucket-18-11-2254-458722512542555"
+  bucket = "sagarbucket-18-11-2254-45872251254gfhtc"
 }
 
 resource "aws_s3_bucket_versioning" "versioning_bucket" {
@@ -14,7 +14,7 @@ resource "aws_s3_bucket_versioning" "versioning_bucket" {
 }
 
 resource "aws_dynamodb_table" "basic-dynamodb-table" {
-  name           = "ss-training-3"
+  name           = "ss-trainingfghtfd"
   billing_mode   = "PROVISIONED"
   read_capacity  = 20
   write_capacity = 20
